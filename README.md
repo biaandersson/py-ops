@@ -23,14 +23,14 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-This is an automation project to automate the DevOPS processes with Python.
+This is an automation project to automate the DevOPS processes. It's an development environment that is cloud agnostic:
+It's uses Github Codespaces to develop and test the code, and then it's deployed to AWS using Terraform and Ansible.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them.
 
-```
+```bash
 Give examples
 ```
 
@@ -86,14 +86,14 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Python](https://python.org) - Python
+- [MicroServices](https://microservices.io/patterns/microservices.html) - Architecture Style
+- [ReactJs](https://reactjs.com/) - Web Framework
+- [Containers](https://www.docker.com) - Containerization
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@bia](https://github.com/biaandersson) - Idea & Initial work
 
 See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
 
