@@ -30,7 +30,7 @@
 ## 🧐 About <a name = "about"></a>
 
 This is an automation project to automate the DevOPS processes. It's an development environment that is cloud agnostic:
-It's uses Github Codespaces to develop and test the code, and then it's deployed to AWS using Terraform and Ansible.
+It's uses Github Codespaces to develop and test the code, and then it's deployed to AWS using Docker and Ansible.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -38,20 +38,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+What things you need to create in order to run the project:
 
-```bash
-Give examples
+```text
+- AWS Account
+- Create a virtualenv
+- Install the requirements.txt
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+You'll need to install the requirements for the project:
+docker, docker-compose, python3, pip3, and ansible.
 
 ```bash
-Give the example
+brew install docker docker-compose python3 pip3 ansible
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
@@ -88,8 +89,8 @@ Add additional notes about how to deploy this on a live system.
 
 - [Python](https://python.org) - Python
 - [MicroServices](https://microservices.io/patterns/microservices.html) - Architecture Style
-- [ReactJs](https://reactjs.com/) - Web Framework
 - [Containers](https://www.docker.com) - Containerization
+- [GitHub](https://github.com) - Hosting platform
 
 ## ✍️ Authors <a name = "authors"></a>
 
